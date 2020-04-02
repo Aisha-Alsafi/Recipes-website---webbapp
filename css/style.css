@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #eeeeee;
+}
+
+.logo {
+
+    height: 200px;
+    margin-bottom: 0px;
+    padding: 30px;
+    color: white;
+    background: url("https://rs.projects-abroad.net/v1/hero/indian-cuisine-south-africa-food-tours-product-5e146c7a97eb2.[1600].jpeg") center #333 no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 0px 5px #000;
+   /* margin: 0 auto; -- center */
+
+}
+
+
+.logoText {
+    width: 350px;
+    height: 140px;
+    font-size: 50px;
+    line-height:1em;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 10px;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    margin-bottom: 30px;
+
+}
+ul{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+ul li:hover{
+     background-color: white;
+
+}
+ul li a{
+    text-decoration: none;
+    color: darkgrey;
+}
+
+
+
+.recept /* Grid */
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+    max-width: 960px;
+    margin: 0 auto 30px;
+}
+
+article{
+    position: relative;
+}
+
+.articleImg {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.articleTitle {
+    position: absolute;
+    bottom: 4px;
+    width: 96%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+#Veckomeny{
+    width:60%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+}
+
+#huvud{
+    width: 40%;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.minRecept{
+    margin: 0 auto;
+
+    width: 60%;
+    background: #ffffff;
+    padding: 50px;
+
+}
+
+@media (max-width:769px)  /* för ipad  och mobil ipap width=768 / mobil width =375*/
+{
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    ul {
+        width: 100%;
+
+    }
+
+    ul li {
+
+        display: block;
+        text-align: center;
+
+    }
+
+    #Veckomeny{
+        width:100%;
+        padding-left: 10px;
+
+
+    }
+
+    .minRecept{
+
+
+        width: 100%;
+        background: #ffffff;
+
+
+    }
+}
+
+
+
+
+
+

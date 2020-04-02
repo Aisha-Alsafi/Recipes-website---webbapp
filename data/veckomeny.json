@@ -1,0 +1,39 @@
+{
+  "veckomeny": [
+    {
+  "dag": "Måndag",
+  "recept": "Mexikansk köttfärssås med krispigt majsris och nacho",
+  "tid": "90 min"
+    },
+    {
+      "dag": "Tisdag",
+      "recept": "Rostad pumpasallad med matvete och chilirostade kikärtor",
+      "tid": "60 min"
+    },
+    {
+      "dag": "Onsdag",
+      "recept": "Wallenbergare med kokt potatis, gröna ärtor och brynt smör",
+      "tid": "60 min"
+    },
+    {
+      "dag": "Torsdag",
+      "recept": "Carnitas med grillad ananassalsa och mexikansk slaw",
+      "tid": "30 min"
+    },
+    {
+      "dag": "Fredag",
+      "recept": "Spätta med varm citronsås och sparris",
+      "tid": "30 min"
+    },
+    {
+      "dag": "Lördag",
+      "recept": "Kyckling steak med asiatisk zucchini- och gurksallad",
+      "tid": "30 min"
+    },
+    {
+      "dag": "Söndag",
+      "recept": "Laxbollar med potatismos",
+      "tid": "300 Cal"
+    }
+  ]
+}

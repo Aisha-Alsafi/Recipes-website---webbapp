@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="js/script.js"></script>
+    <title>Kontakta oss</title>
+</head>
+<body>
+
+<div>
+    <div class="logo">
+        <p class="logoText">Aisha's Kitchen</p>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" >Hem</a></li>
+            <li><a href="#" >Baka</a></li>
+            <li><a href="huvudR.html" >Huvudrätt</a></li>
+            <li><a href="#" >Efterrätt</a></li>
+            <li><a href="veckomeny.html" >Veckomeny</a></li>
+            <li><a href="kontakt.html" >Kontakt</a></li>
+
+        </ul>
+    </nav>
+
+    <div class="kontakt">
+        <h2>Kontakta oss</h2>
+        <div id="error_message"></div>
+        <form id="myform" onsubmit="return validate();">
+            <div class="input_field">
+                <label>Namn: </label>
+                <input type="text"  id="name">
+            </div>
+            <div class="input_field">
+                <label >E-post: </label>
+                <input type="text" placeholder=yourname@yourdomain.com  id="email">
+            </div>
+            <div class="input_field">
+                <label >Meddelande / Förslag: </label>
+                <textarea  id="message" ></textarea>
+            </div>
+            <div >
+                <button>Skicka </button>
+            </div>
+
+        </form>
+    </div>
+
+</div>
+
+</body>
+</html>
